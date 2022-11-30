@@ -96,10 +96,13 @@ body {
     margin: auto;
     text-align: center;
     .title{
-        max-width: 480px;
+        max-width: 510px;
         display: inline-block;
+        background-size: cover !important;
         img{
             width: 100%;
+            opacity: 0.6;
+            padding: 25px 0px;
         }
     }
     .head-info{
@@ -134,7 +137,7 @@ body {
 
 .username{
     font-size: 40px;
-    margin-top: 20px;
+    margin-top: 50px;
     font-family: "UTMViceroyJF";
     .icon{
         width: 60px;
@@ -247,6 +250,14 @@ body {
         position: relative;
         top: 0px;
         transform: none;
+    }
+
+    .content-frontend{
+        .time-box{
+            .date{
+                font-size: 50px;
+            }
+        }
     }
 }
 

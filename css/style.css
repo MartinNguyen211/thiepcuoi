@@ -954,11 +954,14 @@ body {
   text-align: center;
 }
 .content-frontend .title {
-  max-width: 480px;
+  max-width: 510px;
   display: inline-block;
+  background-size: cover !important;
 }
 .content-frontend .title img {
   width: 100%;
+  opacity: 0.6;
+  padding: 25px 0px;
 }
 .content-frontend .head-info {
   margin-bottom: 20px;
@@ -990,7 +993,7 @@ body {
 
 .username {
   font-size: 40px;
-  margin-top: 20px;
+  margin-top: 50px;
   font-family: "UTMViceroyJF";
 }
 .username .icon {
@@ -1104,6 +1107,13 @@ body {
     position: relative;
     top: 0px;
     transform: none;
+  }
+  .content-frontend .time-box .date {
+    font-size: 50px;
+  }
+
+  .content-frontend .box-add .row .col-sm-6.col-xs-12.div1 {
+    display: none;
   }
 }
 
